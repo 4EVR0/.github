@@ -6,6 +6,8 @@
 
 *제 24회 BOAZ 빅데이터 컨퍼런스 발표 · 데모 부스 진행*
 
+[**📊 발표 자료 (PPT)**](https://www.slideshare.net/slideshow/24-boaz-4evr0-kg-rag-llmops/288912452) · [**🖼️ 포스터**](https://www.slideshare.net/slideshow/24-boaz-4evr0-kg-rag-llmops-048b/288947440)
+
 </div>
 
 ---
@@ -17,8 +19,20 @@
 - 관측 대상 **5개 이기종 환경을 단일 Grafana로 통합**, 알람 룰 12종(오케스트레이션 2 · 데이터 정합성 6 · 시스템 4)을 as-code로 관리
 - 성분 매칭을 **Aho-Corasick**(사전 2.6만 키)으로 O(n·m)→O(n+m) 개선 — 사전 완전탐색 대비 약 **200배** 속도, 결과 동일성은 실데이터 전건 검증
 
+---
+
+## 👥 Team
+
 <div align="center">
+
 <img src="assets/boaz_conference.jpg" alt="제 24회 BOAZ 빅데이터 컨퍼런스" width="700">
+
+| <img src="assets/memoji_hyeokjun.png" width="90" alt="문혁준"> | <img src="assets/memoji_seoyeon.png" width="90" alt="김서연"> | <img src="assets/memoji_jiwoo.png" width="90" alt="위지우"> | <img src="assets/memoji_jaewon.png" width="90" alt="신재원"> |
+| :---: | :---: | :---: | :---: |
+| **문혁준 (팀장)** | **김서연** | **위지우** | **신재원** |
+| [@likell1](https://github.com/likell1) | [@seoyeon83](https://github.com/seoyeon83) | [@withya16](https://github.com/withya16) | [@jaewonnow](https://github.com/jaewonnow) |
+| MLOps Engineer | Data Engineer<br>Infra/Cloud Engineer | Data Engineer | Data Engineer |
+
 </div>
 
 ---
@@ -111,19 +125,5 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
 ![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white)
-
-</div>
-
----
-
-## 👥 Team
-
-<div align="center">
-
-| <img src="assets/memoji_hyeokjun.png" width="90" alt="문혁준"> | <img src="assets/memoji_seoyeon.png" width="90" alt="김서연"> | <img src="assets/memoji_jiwoo.png" width="90" alt="위지우"> | <img src="assets/memoji_jaewon.png" width="90" alt="신재원"> |
-| :---: | :---: | :---: | :---: |
-| **문혁준 (팀장)** | **김서연** | **위지우** | **신재원** |
-| [@likell1](https://github.com/likell1) | [@seoyeon83](https://github.com/seoyeon83) | [@withya16](https://github.com/withya16) | [@jaewonnow](https://github.com/jaewonnow) |
-| MLOps Engineer | Data Engineer<br>Infra/Cloud Engineer | Data Engineer | Data Engineer |
 
 </div>
