@@ -28,7 +28,7 @@
 화장품 추천은 **"이 성분이 왜 내 고민에 맞는지"를 설명할 수 있어야** 신뢰를 얻습니다. 성분–효능–피부고민은 본질적으로 관계 데이터라, 벡터 유사도만 쓰는 일반 RAG로는 연결 근거를 되짚기 어렵습니다. 그래서 `Product –CONTAINS→ Ingredient –AFFECTS→ Effect –RELATES_TO→ Concern` 지식그래프를 얹어, 피부 고민에서 **역방향으로 탐색**해 근거 논문 수까지 붙은 성분·제품을 설명 가능한 형태로 추천합니다.
 
 <div align="center">
-<img src="assets/kg_schema.png" alt="지식그래프 스키마 — Product · Ingredient · Effect · Concern과 추천 탐색 흐름" width="850">
+<img src="assets/kg_schema_v2.png" alt="지식그래프 스키마 — Product · Ingredient · Effect · Concern과 추천 탐색 흐름" width="850">
 </div>
 
 ```
@@ -56,7 +56,7 @@
 | **LLMOps** | 단일 GPU(vLLM · Qwen 8B)에서 체감 지연 **11.8s→2.7s**, 과부하 실패율 **8.7%→0%**, AWQ 양자화로 decode **2.4×**, **eval-in-CI**로 품질 회귀 자동 차단 |
 
 <div align="center">
-<img src="assets/monitoring_architecture.png" alt="통합 모니터링 아키텍처 — 4가지 수집 경로가 단일 Grafana로 모이는 구조" width="850">
+<img src="assets/monitoring_architecture_v2.png" alt="통합 모니터링 아키텍처 — 4가지 수집 경로가 단일 Grafana로 모이는 구조" width="850">
 <br><em>흩어진 5개 환경의 메트릭·로그가 단일 Grafana로 모이는 통합 모니터링 구조</em>
 </div>
 
