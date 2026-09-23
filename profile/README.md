@@ -31,7 +31,7 @@
 | [@jaewonnow](https://github.com/jaewonnow) | [@withya16](https://github.com/withya16) | [@seoyeon83](https://github.com/seoyeon83) | [@likell1](https://github.com/likell1) |
 | Data Engineer | Data Engineer | Data Engineer<br>Infra/Cloud Engineer | MLOps Engineer |
 
-<img src="assets/boaz_conference.jpg" alt="제 24회 BOAZ 빅데이터 컨퍼런스" width="700">
+<img src="assets/boaz_conference.jpg" alt="제 24회 BOAZ 빅데이터 컨퍼런스" width="600">
 
 </div>
 
