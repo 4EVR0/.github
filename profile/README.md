@@ -117,11 +117,11 @@
 
 ## 👥 Team
 
-<!-- TODO: 담당 역할 채우기 / 위지우 미모지 이미지 추가 (assets/memoji_jiwoo.png) -->
+<!-- TODO: 담당 역할 채우기 -->
 
 <div align="center">
 
-| <img src="assets/memoji_seoyeon.png" width="90" alt="김서연"> | <img src="assets/memoji_hyeokjun.png" width="90" alt="문혁준"> | <img src="assets/memoji_jaewon.png" width="90" alt="신재원"> | 🧑🏻‍💻 |
+| <img src="assets/memoji_seoyeon.png" width="90" alt="김서연"> | <img src="assets/memoji_hyeokjun.png" width="90" alt="문혁준"> | <img src="assets/memoji_jaewon.png" width="90" alt="신재원"> | <img src="assets/memoji_jiwoo.png" width="90" alt="위지우"> |
 | :---: | :---: | :---: | :---: |
 | **김서연** | **문혁준** | **신재원** | **위지우** |
 | [@seoyeon83](https://github.com/seoyeon83) | [@likell1](https://github.com/likell1) | [@jaewonnow](https://github.com/jaewonnow) | [@withya16](https://github.com/withya16) |
