@@ -69,11 +69,6 @@
 | **통합 모니터링** | 성격이 다른 4가지 수집 경로(Prometheus pull · Alloy push · Neo4j 직접 질의 · dq_api)를 **단일 Grafana**로 통합, 정합성 패널에서 **Athena 드릴다운**으로 원본 행 조회 |
 | **LLMOps** | 단일 GPU(vLLM · Qwen 8B)에서 체감 지연 **11.8s→2.7s**, 과부하 실패율 **8.7%→0%**, AWQ 양자화로 decode **2.4×**, **eval-in-CI**로 품질 회귀 자동 차단 |
 
-<div align="center">
-<img src="assets/monitoring_architecture_v2.png" alt="통합 모니터링 아키텍처 — 4가지 수집 경로가 단일 Grafana로 모이는 구조" width="850">
-<br><em>흩어진 5개 환경의 메트릭·로그가 단일 Grafana로 모이는 통합 모니터링 구조</em>
-</div>
-
 ---
 
 ## 📦 Repositories
