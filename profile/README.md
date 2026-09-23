@@ -6,8 +6,7 @@
 
 *제 24회 BOAZ 빅데이터 컨퍼런스 발표 · 데모 부스 진행*
 
-<!-- TODO: 아키텍처 다이어그램 이미지 추가 후 아래 주석 해제 -->
-<!-- <img src="assets/architecture.png" alt="4EVR0 전체 아키텍처" width="900"> -->
+<img src="assets/architecture.png" alt="4EVR0 전체 아키텍처" width="900">
 
 </div>
 
