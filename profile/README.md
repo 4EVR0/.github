@@ -63,7 +63,7 @@
 | 영역 | 요약 |
 | --- | --- |
 | **데이터 파이프라인** | 올리브영(크롤링) · KCIA/EU CosIng 성분 표준 · PubMed 논문 5,506편 → **Iceberg 레이크하우스(Bronze/Silver/Gold)**. 실패 행은 버리지 않고 `silver_error`(DLQ)에 유형별 적재해 **품질 개선 큐**로 활용 |
-| **CDC → 지식그래프** | 원천 로그 없는 외부 데이터를 **Iceberg 스냅샷 비교(N-1 vs N)**로 변경 감지, Neo4j에 **변경분만 증분 반영**. Product 3,141 · Ingredient 3,221 · CONTAINS 112,966 · Claim 5,387 |
+| **CDC → 지식그래프** | 원천 로그 없는 외부 데이터를 Iceberg 스냅샷 비교(N-1 vs N)로 변경 감지, Neo4j에 변경분만 증분 반영. Product 3,141 · Ingredient 3,221 · CONTAINS 112,966 · Claim 5,387 |
 | **오케스트레이션** | Airflow DAG 4종, 재실행 단위 = 태스크 경계(DockerOperator). 홈서버 크롤 DAG가 **REST API로 EC2 파이프라인을 트리거**, `batch_date` 관통 키로 멱등 보장 |
 | **인프라** | AWS EC2 3대 + S3/Glue/Athena, 홈서버, Vast.ai GPU를 **Tailscale VPN**으로 연결. GitHub Actions **OIDC 키리스 CI/CD**, SSM 배포, Athena 비용 가드레일 |
 | **통합 모니터링** | 성격이 다른 4가지 수집 경로(Prometheus pull · Alloy push · Neo4j 직접 질의 · dq_api)를 **단일 Grafana**로 통합, 정합성 패널에서 **Athena 드릴다운**으로 원본 행 조회 |
