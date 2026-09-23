@@ -6,8 +6,6 @@
 
 *제 24회 BOAZ 빅데이터 컨퍼런스 발표 · 데모 부스 진행*
 
-<img src="assets/architecture.png" alt="4EVR0 전체 아키텍처" width="900">
-
 </div>
 
 ---
@@ -43,6 +41,10 @@
 ---
 
 ## ⚙️ 시스템 한눈에
+
+<div align="center">
+<img src="assets/architecture.png" alt="4EVR0 전체 아키텍처" width="900">
+</div>
 
 | 영역 | 요약 |
 | --- | --- |
